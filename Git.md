@@ -15,14 +15,14 @@ Todo esto para poder gestionar el kernel de linux.
 
 ## Y bueno, ¿qué es Git? 
 Git es un sistema de control de versiones que permite rastrear los cambios que hemos hecho 
-en un conjunto de archivos a traves de una linea de comandos (¿Qué significa esto? Que se maneja a traves de una terminal?**)
+en un conjunto de archivos a traves de una linea de comandos (¿Qué significa esto? Que se maneja a traves de una terminal? \*\)
 
 Git es un proyecto libre y open source* que funciona de manera distribuida; por lo que es fácil de escalar.  
 
-* Open source refiere a un tipo de software cuyo código fuente es accesible y libre para el público. Esto significa que cualquier persona puede ver, modificar y distribuir dicho software según lo estipulado por su licencia. 
+> \*\ Open source refiere a un tipo de software cuyo código fuente es accesible y libre para el público. Esto significa que cualquier persona puede ver, modificar y distribuir dicho software según lo estipulado por su licencia. 
 La idea detrás del código abierto es promover la transparencia, la colaboración y la libre distribución de software.
 
-* Si bien existen herramientas como git kraken o git desktop en este curso trabajaremos con git desde la terminal
+> \**\ Si bien existen herramientas como git kraken o git desktop en este curso trabajaremos con git desde la terminal
 
 Implentar git en nuestros proyectos permite: 
 Crear flujos de trabajo al trabajar con más personas
