@@ -41,6 +41,14 @@ Commit: Registros de los cambios realizados en un proyecto.
 
 Branches: Linea independiente de desarrollo en el repositorio. 
 
+>Stages de Git
+1. **Working Directory**: Aquí haces lo cambios de tus archivos, no se actualizan hasta que los pongas en un commit.
+2. **Staging Area**: En este caso se suben a un espacio temporal los cambios que preparas para un commit.
+3. **Committed**: Cuando estas listo para subir los cambios que se agregaron  en el paso anterior. Se crea una grabación de los cambios con un mensaje para explicarlos.
+4. **Remote Repository**: Con los comandos de `push` y de `pull` se actualiza el repositorio remoto o se descargan los cambios del repositorio remoto.
+
+
+
 
 
 
