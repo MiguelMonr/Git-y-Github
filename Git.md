@@ -47,6 +47,22 @@ Branches: Linea independiente de desarrollo en el repositorio.
 3. **Committed**: Cuando estas listo para subir los cambios que se agregaron  en el paso anterior. Se crea una grabación de los cambios con un mensaje para explicarlos.
 4. **Remote Repository**: Con los comandos de `push` y de `pull` se actualiza el repositorio remoto o se descargan los cambios del repositorio remoto.
 
+>Estados de un archivo en Git
+## Estados de un Archivo en Git
+
+1. **Modified (Modificado):** :
+  - Los cambios en el archivo se han realizado pero aún no se han registrado en Git.
+  - Se pueden deber a modificaciones en el contenido del archivo.
+
+2. **Staged (Preparado):**
+  - Los cambios han sido marcados para ser incluidos en el próximo commit.
+  - Utilizando `git add`, se preparan los cambios para ser confirmados.
+
+3. **Committed (Confirmado):**
+  - Los cambios han sido registrados de manera permanente en el historial de Git.
+  - Se utiliza `git commit` para confirmar los cambios previamente preparados.
+
+
 
 
 
