@@ -3,12 +3,6 @@ En este repositorio se encuentra un curso introductorio a git y github. Se inclu
 
 La presentación de este curso se encuentra en: https://www.canva.com/design/DAF8RfgU_Iw/6rDU_fDPMH4r-kcgt0cYWw/view?utm_content=DAF8RfgU_Iw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
->Stages de Git
-1. **Working Directory**: Aquí haces lo cambios de tus archivos, no se actualizan hasta que los pongas en un commit.
-2. **Staging Area**: En este caso se suben a un espacio temporal los cambios que preparas para un commit.
-3. **Committed**: Cuando estas listo para subir los cambios que se agregaron  en el paso anterior. Se crea una grabación de los cambios con un mensaje para explicarlos.
-4. **Remote Repository**: Con los comandos de `push` y de `pull` se actualiza el repositorio remoto o se descargan los cambios del repositorio remoto.
-
 >Comandos basicos para que se puedan ayudar al usar git en la terminal:
 1. `ls directorio/`: permite conocer los archivos dentro de un directorio.
 2. `cd donde/queremos/ir`: permite movernos entre los directorios e ir a la carpeta en especifico a la cual queremos ir.
