@@ -5,10 +5,10 @@
 El desarrollo del kernel de Linux, iniciado por Linus Torvalds, originalmente usaba el sistema de control de versiones llamado BitKeeper. 
 Sin embargo, en 2005, la relación entre la comunidad de desarrollo de Linux y la empresa detrás de BitKeeper se rompió. Linux requería un sistema de control de versiones que fuera:
 
-Distribuido
-Rápido
-Con un diseño robusto
-Capaz de manejar grandes proyectos como el kernel de Linux
+- Distribuido
+- Rápido
+- Con un diseño robusto
+- Capaz de manejar grandes proyectos como el kernel de Linux
 
 En respuesta a esta necesidad, Torvalds aplico la de "si quieres que las cosas sean como quieres hazlas tu" y creo git en menos de 10 dias. 
 Todo esto para poder gestionar el kernel de linux. 
