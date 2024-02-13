@@ -3,6 +3,15 @@ En este repositorio se encuentra un curso introductorio a git y github. Se inclu
 
 La presentación de este curso se encuentra en: https://www.canva.com/design/DAF8RfgU_Iw/6rDU_fDPMH4r-kcgt0cYWw/view?utm_content=DAF8RfgU_Iw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
+# Importante
+* Windows:
+ Para los sistemas operativos windows usaremos wsl, es importante que lo tengas descargado https://learn.microsoft.com/es-es/windows/wsl/install
+
+* MacOS:
+  - Algunos equipos mac ya tienen git instalado por default, para saber si el tuyo lo tiene corre el siguiente comando en tu termial `git --version`
+  - Si no tienes git entonces lo descargaremos con brew con `brew install git`
+  - Aaaahora bien, si no tienes brew puedes con el siguiente comando desde tu terminal (puede tardar un poco) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hom...)"`
+
 >Comandos basicos para que se puedan ayudar al usar git en la terminal:
 1. `ls directorio/`: permite conocer los archivos dentro de un directorio.
 2. `cd donde/queremos/ir`: permite movernos entre los directorios e ir a la carpeta en especifico a la cual queremos ir.
