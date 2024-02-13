@@ -6,11 +6,16 @@ La presentación de este curso se encuentra en: https://www.canva.com/design/DAF
 # Importante
 * Windows:
  Para los sistemas operativos windows usaremos wsl, es importante que lo tengas descargado https://learn.microsoft.com/es-es/windows/wsl/install
+ Para instalar git en wsl usaremos `sudo apt update` y después `sudo apt install git` para tener listo su git.
+ Descarguen en Visual Studio la extensión de wsl para poder usar los archivos de wsl en el Studio.
+
 
 * MacOS:
   - Algunos equipos mac ya tienen git instalado por default, para saber si el tuyo lo tiene corre el siguiente comando en tu termial `git --version`
   - Si no tienes git entonces lo descargaremos con brew con `brew install git`
   - Aaaahora bien, si no tienes brew puedes con el siguiente comando desde tu terminal (puede tardar un poco) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hom...)"`
+
+Después configuren su cuenta de git con los comandos `git config --global user.name "Nombre de Ususario"` y `git config --global user.email "correo electronico"`.
 
 >Comandos basicos para que se puedan ayudar al usar git en la terminal:
 1. `ls directorio/`: permite conocer los archivos dentro de un directorio.
