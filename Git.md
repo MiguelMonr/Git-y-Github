@@ -62,7 +62,7 @@ Branches: Linea independiente de desarrollo en el repositorio.
   - Los cambios han sido registrados de manera permanente en el historial de Git.
   - Se utiliza `git commit` para confirmar los cambios previamente preparados.
 
-** Terminal
+# Terminal
 
 Es una interfaz que nos permite interactuar con el sistema operativo mediante comandos de texto. Se podria decir que es una manera en la que nos comunicamos directamente con la computadora
 
