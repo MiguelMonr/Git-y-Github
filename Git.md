@@ -64,7 +64,11 @@ Branches: Linea independiente de desarrollo en el repositorio.
 
 # Terminal
 
-Es una interfaz que nos permite interactuar con el sistema operativo mediante comandos de texto. Se podria decir que es una manera en la que nos comunicamos directamente con la computadora
+Es una interfaz que nos permite interactuar con el sistema operativo mediante comandos de texto. Se podria decir que es una manera en la que nos comunicamos directamente con la computadora.
+Permite: 
+- Interaccion directa con el sistema
+- Acceso y control de sistema
+- Permite control absoluto (con los permisos necesarios) 
 
 
 
