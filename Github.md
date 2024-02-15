@@ -4,22 +4,22 @@ Primero lo primero: git y github NO SON LO MISMO. Puede resultar un poco confuso
 2) que permite la colaboracion entre desarrolladores. En pocas palabras github usa git, no al reves. 2) git es mantenido por linux y github por microsoft.
 
 # Local y remoto
-En la primera parte hablamos un poco de repositorios locales, pero ¿que significa esto?
-
-
+En la primera parte hablamos un poco de repositorios locales, pero ¿que significa esto? Github, como lo mencionamos, es un servicio de hosting. En el estan almacenados miles de repositorios en el que lxs desarroladorxs rastrean su trabajo. Cada uno de ellxs, si quiere, puede tener una version de ese repositorio en su equipo (o local) y hacer cambios. Sin embaaaargo, los cambios en el repo remoto (el que se encuentra en github)
+no se van a ver reflejados en los locales a menos que ejecutemos ciertos comandos; la misma logica aplica con los locales, los cambios que hagamos en nuestros equipos no se veran reflejados hasta que querramos. 
 
 # ¿Cómo se relacionan git y github? Claves SSH
-Las claves ssh aparecen por primera vez en 1995 con el objetivo de proteger los datos entre dos maquinas. En github las utilizamos como un metodo de autenticación y conexión ya que es un protocolo bastante seguro. A traves de ellas podemos mandar nuestros cambios a github. 
+Las claves ssh aparecen por primera vez en 1995 con el objetivo de proteger los datos entre dos maquinas. En github las utilizamos como un metodo de autenticación y conexión ya que es un protocolo bastante seguro. A traves de ellas podemos mandar nuestros cambios al repositorio remoto. Hay que resaltar que se generan en pares: una clave pública y una clave privada. La clave pública se comparte con el servidor remoto, mientras que la clave privada se guarda en secreto en el equipo del usuario. Cuando el usuario intenta iniciar sesión en el servidor, este utiliza la clave pública para cifrar un desafío. El usuario then debe descifrar el desafío con su clave privada. Si el descifrado es correcto, el usuario podrá iniciar sesión.
 
 > Aquí el tutorial para configurarlas: https://docs.github.com/es/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys<
 
 # Comandos de conexion
 Para poder sincronizar nuestro cambios y mandarlos al repositorio remoto lo hacemos atraves de un par de comandos de git (siempre y cuando todos ellos ya hayan sido commiteados)
-- git push: se utiliza para enviar los cambios locales al repositorio remoto. Es decir, actualiza el repositorio remoto con los cambios que has realizado en tu copia local.
+- `git push`: se utiliza para enviar los cambios locales al repositorio remoto. Es decir, actualiza el repositorio remoto con los cambios que has realizado en tu copia local.
 
 ¿Qué pasa si se hacen cambios en el remoto?, ¿Se pueden traer a nuestro local? Sí se puede, con los siguientes comandos: 
-- git fetch: Este comando se utiliza para obtener los cambios del repositorio remoto sin fusionarlos con tu copia local. Es decir, descarga los cambios del repositorio remoto, pero no los aplica a tu copia local.
-- git pull: Este comando se utiliza para obtener los cambios del repositorio remoto y fusionarlos con tu copia local. Es decir, actualiza tu copia local con los cambios que se han realizado en el repositorio remoto.
+
+- `git fetch`: Este comando se utiliza para obtener los cambios del repositorio remoto sin fusionarlos con tu copia local. Es decir, descarga los cambios del repositorio remoto, pero no los aplica a tu copia local.
+- `git pull`: Este comando se utiliza para obtener los cambios del repositorio remoto y fusionarlos con tu copia local. Es decir, actualiza tu copia local con los cambios que se han realizado en el repositorio remoto.
 
 # Cuidado
 Al empezar a trabajar con repositorios locales y remotos junto con nuestro equipo si no existe la comunicación adecuada puede que una o más personas trabajen sobre el mismo archivo;
