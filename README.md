@@ -49,14 +49,12 @@ Después configuren su cuenta de git con los comandos `git config --global user.
 # Para git y terminal
 - Juego para aprender git: https://ohmygit.org/
 - Juego para familiarizarse con los comandos de la terminal: https://overthewire.org/wargames/bandit/
-- Tutorial 1 para git: https://www.youtube.com/watch?v=3GymExBkKjE&t=3835s
+- Tutorial 1 para git: https://www.youtube.com/watch?v=3GymExBkKjE&t=3835s 
 - Tutorial 2 para git: https://youtu.be/mBYSUUnMt9M?si=WXXAa5Ld143pHwjc
-- Tutorial para terminal de shell: 
-
 
 # Para github
-- Tutorial para hacer pull requests
-- Tutorial para solucionar conflictos
+- Tutorial para hacer pull requests: https://github.com/skills/introduction-to-github
+- Tutorial para solucionar conflictos: https://github.com/skills/resolve-merge-conflicts
 
 
 
