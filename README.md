@@ -55,8 +55,8 @@ Después, desde la terminal, pongan los siguientes comandos para configurar su c
 - Tutorial 2 para git: https://youtu.be/mBYSUUnMt9M?si=WXXAa5Ld143pHwjc
 
 # Para github
-- Tutorial para hacer pull requests: https://github.com/skills/introduction-to-github
-- Tutorial para solucionar conflictos: https://github.com/skills/resolve-merge-conflicts
+- Tutorial para hacer pull requests: https://github.com/skills/introduction-to-github (ideal por si tienes macos)
+- Tutorial para solucionar conflictos: https://github.com/skills/resolve-merge-conflicts (ideal si tienes windows)
 
 
 
