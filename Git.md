@@ -15,7 +15,7 @@ Todo esto para poder gestionar el kernel de linux.
 
 ## Y bueno, ¿qué es Git? 
 Git es un sistema de control de versiones que permite rastrear los cambios que hemos hecho 
-en un conjunto de archivos a traves de una linea de comandos (¿Qué significa esto? Que se maneja a traves de una terminal? \**\)
+en un conjunto de archivos a traves de una linea de comandos (¿qué significa esto? Que se maneja a traves de una terminal? \**\).
 
 Git es un proyecto libre y open source* que funciona de manera distribuida; por lo que es fácil de escalar.  
 
@@ -31,7 +31,7 @@ Rastrear cambios
 
 
 # Conceptos de git
-Al trabajar con git por primera vez nos encontramos con conceptos nuevos que pueden llegar a asustarnos un poco:  ¿qué es un repo?, ¿Mergear una rama?, ¿Qué es un commit?, ¿Matar el mapa después de haber forkeado al hijo?. Todos estos conceptos los desarrollaremos a continuacion: 
+Al trabajar con git por primera vez nos encontramos con conceptos nuevos que pueden llegar a asustarnos un poco:  ¿qué es un repo?, ¿Mergear una rama?, ¿Qué es un commit?, ¿Matar el papa después de haber forkeado al hijo?. Todos estos conceptos los desarrollaremos a continuacion: 
 
 Repositorio: Un repositorio, a menudo abreviado como "repo", es un espacio digital donde se almacena y gestiona un proyecto. Puede contener código fuente, imágenes, documentos, y otros archivos. Es el corazón de cualquier proyecto en GitHub.
 
